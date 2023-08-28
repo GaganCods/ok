@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Neon Background</title>
+</head>
+<body>
+  <div class="neon-background">
+    <h1><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Gift Code</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    #code-container {
+      margin-top: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div id="code-container">
+    <img src="https://www.mygiftcardsupply.com/wp-content/uploads/2022/01/amazon-gift-card.png" alt="Image">
+    <h1>Amazon Gift Code</h1>
+    <button onclick="generateCode()">Generate Code</button>
+    <p id="generated-code"></p>
+  </div>
+  <script>
+    function generateCode() {
+      const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+      let code = '';
+      for (let i = 0; i < 14; i++) {
+        const randomIndex = Math.floor(Math.random() * characters.length);
+        
+        if (i === 4 || i === 10) {
+          code += '-';
+        }
+        
+        code += characters.charAt(randomIndex);
+      }
+      document.getElementById('generated-code').textContent = code;
+    }
+  </script>
+</body>
+</html>
+</h1>
+  </div>
+</body>
+</html>
